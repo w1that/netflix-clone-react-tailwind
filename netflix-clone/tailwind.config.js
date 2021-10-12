@@ -20,6 +20,7 @@ module.exports = {
           dark: '#222222',
           dark2: '#303030',
           DEFAULT: '#c0ccda',
+          innerInput:'#333333',
           light: '#e0e6ed',
           lightest: '#f9fafc',
         }

@@ -5,7 +5,6 @@ function WelcomePage() {
   return (
     <div style={{zIndex:-1}} className="bg-black h-screen">
       <img
-        style={{  }}
         className="absolute h-4/5 w-full filter  object-cover"
         src="https://assets.nflxext.com/ffe/siteui/vlv3/9b3267c9-5086-4550-92f1-eddc22a1f78e/8a0b0cf6-c8c9-4e6a-9f50-bd325ea0ed27/TR-tr-20211004-popsignuptwoweeks-perspective_alpha_website_large.jpg"
       ></img>

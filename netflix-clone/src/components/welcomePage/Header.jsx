@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../../logo.png'
 
 function Header() {
@@ -8,7 +9,7 @@ function Header() {
                 <img className="h-10 ml-6 sm:h-14 sm:ml-14" src={logo}></img>
                 <div className="mr-0 flex sm:mr-14">
                 <button className="border px-2 py-1  text-white rounded mx-6">Türkçe</button>
-                <button className="px-3 py-1 bg-netflixred text-white rounded mx-2">Oturum Aç</button>
+                <Link to="/login"><button className="px-3 py-1 bg-netflixred text-white rounded mx-2">Oturum Aç</button></Link>
                 </div>
 
                 
